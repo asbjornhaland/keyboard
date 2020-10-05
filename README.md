@@ -38,4 +38,6 @@ Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with t
 </variant>
 ```
 
-It should now be selectable in the keyboard settings.
+```
+setxkbmap us AH-English-US
+```
