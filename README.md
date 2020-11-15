@@ -22,13 +22,13 @@ I have also made CapsLock an additional Esc - this is more practical when using 
 
 Add it to you systems keyboard and restart your computer.
 
-```
+```fish
 sudo cat AH-english-us >> /usr/share/X11/xkb/symbols/us
 ```
 
 Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with the following, add it near the other English keyboards
 
-```
+```xml
 <variant>
   <configItem>
     <name>AH-English-US</name>
@@ -38,6 +38,13 @@ Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with t
 </variant>
 ```
 
-```
+```fish
 setxkbmap us AH-English-US
+```
+
+```fish
+# config.fish
+
+alias asdf='setxkbmap us AH-English-US -option caps:escape lv3:ralt_switch lv3:win_switch'
+alias fdsa='setxkbmap no'
 ```
