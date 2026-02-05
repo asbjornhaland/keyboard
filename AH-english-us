@@ -61,5 +61,6 @@ xkb_symbols "AH-English-US" {
 
     include "level3(ralt_switch)"
     include "level3(win_switch)"
+    include "capslock(escape)"
 };
 
