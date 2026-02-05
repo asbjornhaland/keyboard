@@ -58,5 +58,8 @@ xkb_symbols "AH-English-US" {
     key <AB10> {        [     slash,    question                        ]       };
 
     key <BKSL> {        [ backslash,         bar                        ]       };
+
+    include "level3(ralt_switch)"
+    include "level3(win_switch)"
 };
 
