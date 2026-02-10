@@ -48,3 +48,7 @@ setxkbmap us AH-English-US
 alias asdf='setxkbmap us AH-English-US -option caps:escape lv3:ralt_switch lv3:win_switch'
 alias fdsa='setxkbmap no'
 ```
+
+### MacOS
+
+`sudo cp ./AH-english-US-mac.keylayout /Library/Keybaord\ Layouts`
