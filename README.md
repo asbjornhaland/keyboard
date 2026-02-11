@@ -51,4 +51,4 @@ alias fdsa='setxkbmap no'
 
 ### MacOS
 
-`sudo cp ./AH-english-US-mac.keylayout /Library/Keybaord\ Layouts`
+`sudo cp ./AH-english-us-MAC.keylayout /Library/Keyboard\ Layouts/`

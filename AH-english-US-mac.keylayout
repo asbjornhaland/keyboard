@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 452 on 2026-02-10 at 15:43 (GMT+1)-->
 <!--Last edited by Ukelele version 452 on 2026-02-11 at 10:20 (GMT+1)-->
-<keyboard group="126" id="-3582" name="AH English US MAC" maxout="1">
+<keyboard group="0" id="-1234" name="AH English US MAC" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
